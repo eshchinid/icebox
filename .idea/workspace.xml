@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c377f569-f781-491b-b265-b93013adcbf1" name="Changes" comment="add route">
-      <change afterPath="$PROJECT_DIR$/server/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/button/myButton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/UI/input/myInput.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/temp.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/routes/productRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/productRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,15 +55,27 @@
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/ivan/Documents/DEV/REACT/icebox/server",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/index.js" working-dir="$PROJECT_DIR$/server">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/client/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
         <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
@@ -65,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1673433733392</updated>
       <workItem from="1673433736151" duration="767000" />
-      <workItem from="1673437313130" duration="16871000" />
+      <workItem from="1673437313130" duration="66798000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1673435117664</created>
@@ -109,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673443362336</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add route">
+      <created>1673455414542</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673455414542</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
